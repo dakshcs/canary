@@ -28,3 +28,69 @@ as a kid who's lived in the NCR region for most of their life, i feel that i don
 
   
 
+## 10/19/2025 - thought over the implementation  
+
+okay for this to work at the most basic level, we need
+- something that measures pollutants (important measures are pm2.5 and pm10)
+- something that measures gaseous concentration levels (CO2, NH3, NOx, smoke, benzene)
+- something that measures temps, humidity and pressure
+- something that processes all this data and warns us if it reaches a set threshold
+- something that powers all this and does not explode at random
+
+for this to go in my portfolio and to be of significance, we need
+- to somehow shove ai in there (find a correlation between human breathing efficiency and environmental factors)
+- to be revolutionary in some way other than being "accessible" and "cheap"
+- to have a product ecosystem that integrates with this stuff and plays nicely with other stuff using iot (say the air purifier in your hyundai starts running before you get in if you are starting to get close or something)
+
+for this to be appealing to people, specifically indian people from delhi
+- needs to be cheap
+- needs to not break
+- needs to not explode
+- needs to be sufficiently portable
+- needs to be a status symbol (hello people from gurgaon)
+
+okay so finally, we need something that does the biohazard thing but also replaces the health functions of cheap smartwatches (amazefit, boat, all the other usual offenders) as just simple convenience features like on the new airpods. because most indians dont wear watches, atleast gen x indians.
+
+okay so we need airflow, skin contact, good battery (for sleep tracking and stuff) and presumably better/more numerous factors of health data collection (to be integrated with personal ai later that correlates environmental factors to your body and adjusts thresholds automatically)
+
+where do i need to put the sensors? where do i get all the space for the battery and processor?
+
+it has to be skin contact, so somewhere on the body.
+it has to have good airflow, so somewhere on the extremities of the body.
+
+legs don't make sense, neck makes no sense. only other places that make sense are the arms and the head.
+
+rn i dont care about the head because too little surface area for this, might use head as a location for this but in bone conductor earphones or something.
+
+anyways, if we put this on the deltoid, we get pedometer data, HR data, stress data and all kinds of smartwatch data along with good airflow and plenty of surface area to put stuff in.
+
+now if people wear this, it must not look bad and it must not be uncomfortable.
+
+ie. we need to hide the electronics somewhere while still keeping it comfortable, so we need dampening and basically shit needs to be part of a bigger structure.
+
+
+WHY NOT PUT IT ON THE SLEEVES OF TSHIRTS?????????????????????
+
+we put the batteries somewhere on the body where it doesn't bend, doesn't get pressure put on it and is readily accessible to remove just in case it catches fire or explodes.
+
+so my idea.
+
+make a silicone housing/gasket thing, put the sensors on the internal side so they come in contact with the skin. skin is the deltoid region so isnt too fat and in healthy people is just muscle, increasing data amplitude. anyways, on the other side of the gasket thing we have a small 3d printed or idk some extruded material that has vents on either side and the vents allow air into the thickness of the extrusion which is where all the sensors sit.
+
+then we somehow route wires into the battery pack and processor. (this is if the battery pack is required to be like a weekly charge or something and if i need a big ass processor)
+
+the extrusion in this case is around the surface area of an ESP32, don't know about the volume though so might have to look into that.
+
+worst case, we wire everything and make a processor + battery module that sits in your pocket along with your phone.
+
+anyways, add the ability to pop out the mechanism from one piece of clothing and into the next so that you can still wash your clothes and change clothes so that data collection downtime is only during showers and such.
+
+
+
+
+other than the wires in the tshirt thing this sounds somewhat doable.
+
+![deltoids-muscle-attachments.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzA5MiwicHVyIjoiYmxvYl9pZCJ9fQ==--678db9aa82cc0fd0cf886f26baf3852f520aa65d/deltoids-muscle-attachments.jpg)
+
+  
+
