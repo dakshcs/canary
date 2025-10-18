@@ -66,7 +66,7 @@ anyways, if we put this on the deltoid, we get pedometer data, HR data, stress d
 
 now if people wear this, it must not look bad and it must not be uncomfortable.
 
-ie. we need to hide the electronics somewhere while still keeping it comfortable, so we need dampening and basically shit needs to be part of a bigger structure.
+ie. we need to hide the electronics somewhere while still keeping it comfortable, so we need damping and basically shit needs to be part of a bigger structure.
 
 
 WHY NOT PUT IT ON THE SLEEVES OF TSHIRTS?????????????????????
