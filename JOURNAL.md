@@ -94,3 +94,57 @@ other than the wires in the tshirt thing this sounds somewhat doable.
 
   
 
+## 10/20/2025 - researched components  
+
+okay so from my earlier journal posts, i gathered a list of possible components i will need and so far this is the list.
+
+Core sensors (environmental monitoring):
+
+PMS5003/PMS7003 - PM1.0, PM2.5, PM10
+SGP30 or CCS811 - VOCs and eCO2 (better than MQ-135 for wearable - smaller, I2C, low power)
+BME280 - temp, humidity, pressure
+
+Biometric sensors (smartwatch replacement):
+
+MAX30102 or MAX30105 - HR, SpO2 (optical sensor against skin)
+LSM6DS3 or MPU6050 - accelerometer + gyro (pedometer, sleep tracking, stress via HRV)
+
+Processing & Power:
+
+ESP32-S3 (thinking about offloading all compute to the phone but don't know if that's realistic)
+TP4056 + protection circuit - LiPo charging
+500-1000mAh LiPo - should last 1-2 days
+3.3V regulator (LDO like AMS1117 or buck-boost for efficiency)
+
+Alerts & Interface:
+
+Vibration motor (coin type, 3V)
+RGB LED (status indicator)
+Small OLED display (optional - 0.96" I2C, adds ~10mA)
+Button(s) - for interaction
+
+
+
+
+
+anyways
+
+
+
+i was thinking about the ai model thing and then realized that just to have a super basic super functional working model thing i just need live data output to a display or led.
+
+so that's pretty simple, hook sensor up to processor, processor checks if environmental factors under preset thresholds, updates led and oled.
+
+now for the ai part, processor somehow stores all the recorded data every day to the phone in a sort of training period time, then the phone stores like 1gb of data regarding health indicators and then trains the ai accordingly and then it dynamically updates the threshold table (like a fuel map in a car) and then badabing badaboom.
+
+also, the user should be able to press a button and retrain the thing because that's always needed with deterioration in health.
+
+
+****BATTERY SHOULD NOT EXPLODE ON THE USER'S ARM********
+
+
+and also no traditional MQ type gas sensors because they require heating and are stupid and take up a lot of battery.
+
+![3222e342ccfd3adcf76c83351f726a32.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzQ5NiwicHVyIjoiYmxvYl9pZCJ9fQ==--8e6ed9224b712d32f4673db705aea782ea8671de/3222e342ccfd3adcf76c83351f726a32.png)
+  
+
