@@ -6,10 +6,6 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **canary**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/684).
-
-
 ## 10/18/2025 - came up with the idea  
 
 okay so i live in delhi NCR in india and its diwali time rn which means that the air is super polluted and usually around this time i get a sore throat and i get sick too. i thought it would be really helpful if i had a sort of "canary" like miners used to have in the past that would alert them of oxygen deprivation.
@@ -146,5 +142,12 @@ also, the user should be able to press a button and retrain the thing because th
 and also no traditional MQ type gas sensors because they require heating and are stupid and take up a lot of battery.
 
 ![3222e342ccfd3adcf76c83351f726a32.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzQ5NiwicHVyIjoiYmxvYl9pZCJ9fQ==--8e6ed9224b712d32f4673db705aea782ea8671de/3222e342ccfd3adcf76c83351f726a32.png)
+  
+
+## 10/31/2025 - learnt kicad and electronics  
+
+my school has extra classes for this type of stuff so i just spent a week learning and building irl.
+
+i learnt the manufacturing process for PCBs, how people design them, miniaturized silicon in epoxy for use, arduinos/rpis and control systems,, 3d printing, what components do, common electronic circuits etc. (very long list)![introduction-to-arduino-mega-5.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjkxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--bda3edda24b9860ba4f65018c634eac0e776dfbb/introduction-to-arduino-mega-5.png.png)
   
 
